@@ -1,0 +1,11 @@
+Launching Sublime from command-line
+Windows
+Find the directory where Sublime is located for you.  For many people, this is C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe.  To test this, run dir "C:/Program\ Files/Sublime\ Text\ 2" ----(Copiar la dir donde está guardado el Sublime) -----within Git Bash.  You should see sublime_text.exe listed.  If you get the error No such file or directory, Sublime is located somewhere else for you and you'll need to find it.  For example, it might be under C:/Program\ Files\ \(x86\).
+Run the following command in Git Bash: echo 'alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"' >> ~/.bashrc If Sublime was in a different directory for you in step 1, use that directory.
+Close and re-open Git Bash.  
+Type subl in Git Bash. If Sublime opens no further steps are required. If Sublime does not open continue with steps 5 - 7.
+Test .bashrc by running the command source ~/.bashrc in Git Bash and retry typing subl to start sublime. If Sublime doesn't start check the contents of the file ~/.bashrc created in step 2.
+To ensure the .bashrc file contents is loaded each time you open Git Bash, edit ~/.bash_profile and add the following two lines. (Reference) 
+if [ -r ~/.profile ]; then . ~/.profile; fi
+case "$-" in *i*) if [ -r ~/.bashrc ]; then . ~/.bashrc; fi;; esac 
+Close and re-open Git Bash. Type subl in Git Bash to check it starts correctly.
