@@ -14,13 +14,26 @@ is any file saved).
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Make a change in file, add file to staging area commit the file
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+If you want to make some extra/diferent version, then branches ar perfect in
+this case, because you can add any branch and switch between them.
+its perfect use for diferent versions
+
 How do the diagrams help you visualize the branch structure?
+
+If i make a diagram i have quick look at my branches in front of me
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The master branch is updated with las branch. 
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+For shure i am going to do it always manualy because i wana know exacly what 
+i am doing when mereging comits
