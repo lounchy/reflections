@@ -14,3 +14,14 @@ git branch -- check existing branches
 git log [new branch name] -- create new branch
 git log --graph --oneline [branch1 branch2 branch3]
 git checkout -b [new branch name]
+git merge [branch2 branch3
+git merge --abort
+git show commit_id
+git log -n1 ----> shows only one commit
+git remote
+git remote add [remote] [url]
+git remote -v
+git push -u [remote] [master]
+git pull [remote] [url]
+git pull [remote] [branch]
+git fetch [remote]
