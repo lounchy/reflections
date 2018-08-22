@@ -1,0 +1,16 @@
+GIt COMANDS
+git clone -- clone repository
+git init --init repository
+git checkout --checkout comit
+git checkout master --chockout from last main commit
+git add -- add file to stage state
+git reset --reset 
+git status
+git diff
+git diff --staged
+git reset --hard
+git log
+git branch -- check existing branches
+git log [new branch name] -- create new branch
+git log --graph --oneline [branch1 branch2 branch3]
+git checkout -b [new branch name]
